@@ -10,34 +10,7 @@ require('@/assets/styles/cssIndex.css')
     </div>
 
     <h1>TIENDA DE OSCAR</h1>
- <ul>
-    <FONT size = 4>Se vende:</FONT>
-        <li>
 
-        <div class="main">
-          <div class="sub-main">
-            <button  class="buttonCrearCuenta" @click="$router.push('catalog')">Juguetes</button>
-        </div>
-      </div>    <br>        
-      </li>
-        
-        <li>
-
-        <div class="main">
-          <div class="sub-main">
-            <button  class="buttonCrearCuenta" @click="$router.push('catalog')">Videojuegos</button>
-        </div>
-      </div>    <br>        
-      
-      </li>
-        <li>
-
-<div class="main">
-        <div class="sub-main">
-  <button  class="buttonCrearCuenta" @click="$router.push('catalog')">Juguetes</button>
-        </div>
-      </div>    <br>        </li>
-        </ul>
 
 
 <div class="main">

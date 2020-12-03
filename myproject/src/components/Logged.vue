@@ -38,7 +38,7 @@ require('@/assets/styles/cssIndex.css')
 
         <div class="main">
           <div class="sub-main">
-            <input CLASS= "buttonCrearCuenta" type="submit" value="Juguetes Test" v-on:click ="routeCatalog('Juguetes')"/>
+            <input CLASS= "buttonCrearCuenta" type="submit" value="Juguetes" v-on:click ="routeCatalog('Juguetes')"/>
 
         </div>
       </div>    <br>        
@@ -49,7 +49,7 @@ require('@/assets/styles/cssIndex.css')
         <div class="main">
           <div class="sub-main">
             
-            <input CLASS= "buttonCrearCuenta" type="submit" value="Pollos Test" v-on:click ="routeCatalog('Pollos')"/>
+            <input CLASS= "buttonCrearCuenta" type="submit" value="Libros" v-on:click ="routeCatalog('libros')"/>
 
         </div>
       </div>    <br>        
@@ -60,7 +60,7 @@ require('@/assets/styles/cssIndex.css')
 <div class="main">
         <div class="sub-main">
 
-  <input CLASS= "buttonCrearCuenta" type="submit" value="Videojuegos Test" v-on:click ="routeCatalog('Videojuegos')"/>
+  <input CLASS= "buttonCrearCuenta" type="submit" value="Videojuegos" v-on:click ="routeCatalog('Videojuegos')"/>
 
         </div>
       </div>    <br>        </li>

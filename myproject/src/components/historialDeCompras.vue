@@ -7,6 +7,8 @@ require('@/assets/styles/cssCatalog.css')
     <h2>
     <span>Bienvenido {{this.$cookies.get('usuarios')}}</span>
     </h2>
+        No terminado
+
     <h1>
       
     <h2>
