@@ -116,13 +116,13 @@ export default {
         apMaterno: appMaterno,
         telefono: telefono,
       };
-      alert(article.username);
-      alert(article.nombre)
-      alert(article.trato);
-      alert(article.apPaterno);
-      alert(article.apMaterno);
-      alert(article.telefono);
-      alert(article.password);
+      //alert(article.username);
+      //alert(article.nombre)
+      //alert(article.trato);
+      //alert(article.apPaterno);
+      ///alert(article.apMaterno);
+      //alert(article.telefono);
+      //alert(article.password);
 
       if (this.checkMail(article.username)){
 
