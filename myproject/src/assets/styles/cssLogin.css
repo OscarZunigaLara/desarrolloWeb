@@ -1,0 +1,119 @@
+
+
+title {
+    background-color: rgb(40, 228, 72);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+
+  body {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: rgb(114, 129, 156);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+  tr {
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+  }
+  table, th, td {
+    border: 1px transparent black;
+    padding: 5px;
+    background-color:rgba(52, 168, 235, 0.1);    
+    border-radius: 3%;
+
+  }
+
+  form button:hover {
+    background: gold;
+  }
+  input[type=text] {
+    background-color:rgba(52, 168, 235, 0.1); 
+    color: white;
+    border: none;
+    background-position: 10px 10px;
+    border-radius: 5%;
+  }
+  input[type=password] {
+    background-color:rgba(52, 168, 235, 0.1);    
+    background-position: 10px 10px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+  }
+  select {
+    background-color:rgba(22, 48, 63, 0.1);    
+    color: white;
+    border: none;
+    box-shadow: 0 5px 25px rgba(6, 36, 170, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    border-radius: 5%;
+  }
+
+  .buttonCrearCuenta {
+    border-radius: 4px;
+    background-color: rgba(52, 168, 235, 0.2);    
+    border: none;
+    padding: 20px;
+    transition: all 0.5s;
+  }
+  
+  
+  .buttonCrearCuenta span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonCrearCuenta span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonCrearCuenta:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonCrearCuenta:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  .cajaSeleccion select {
+    background-color: #0562af54;
+    color: white;
+    border: none;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  }
+  
